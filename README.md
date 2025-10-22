@@ -1,5 +1,5 @@
 
-# ⚖️ Legal Case Extractor - For & Against Points
+# ⚖️ AI-Powered Legal Case Extractor - For & Against Points
 
 A Python-based Streamlit web application to extract and analyze **legal case PDFs**. The app summarizes text, extracts metadata, entities, keywords, questions, and generates **For & Against points** from case sections using AI.
 

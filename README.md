@@ -1,16 +1,3 @@
-# LegalCaseExtractor
-
-
-LegalCaseExtractor/
-├── app.py
-├── extractor.py
-├── utils.py
-├── requirements.txt
-├── .env.example
-├── README.md
-└── temp_files/   # optional, will be auto-created by app.py
-
-
 
 # ⚖️ Legal Case Extractor - For & Against Points
 
@@ -31,58 +18,60 @@ A Python-based Streamlit web application to extract and analyze **legal case PDF
 - Generate **For & Against points** from each section.
 - Interactive Streamlit interface for preview and exploration.
 
----
-
-## Screenshots
-
-*(Add screenshots here if available)*
 
 ---
 
 ## Installation
 
-1. Clone this repository:
+1. *Clone this repository*:
 
 ```bash
 git clone https://github.com/yourusername/LegalCaseExtractor.git
 cd LegalCaseExtractor
+```
 
 
 
-2.Create a virtual environment and activate it:
-
+2. *Create a virtual environment and activate it*:
+```bash
 python -m venv venv
+```
 # Windows
+```bash
 venv\Scripts\activate
+```
 # Linux / macOS
+```bash
 source venv/bin/activate
+```
 
-3.Install dependencies:
-
+3. *Install dependencies*:
+```bash
 pip install -r requirements.txt
+```
 
-
-4.Setup environment variables:
+4. *Setup environment variables*:
 
 Create a .env file in the project root.
 
 Add your Gemini API key:
+```bash
 
 GEMINI_API_KEY=your_api_key_here
+```
 
-
-Usage
+# Usage
 
 Run the Streamlit app:
-
+```bash
 streamlit run app.py
+```
 
-
-Open the link in your browser (usually http://localhost:8501).
+It opens the link in your browser (usually http://localhost:8501).
 
 Upload a PDF to extract metadata and for/against points.
 
-Dependencies
+# Dependencies
 
 Python 3.11
 
@@ -101,8 +90,17 @@ After installing spaCy, don’t forget to run:
 
 ```bash
 python -m spacy download en_core_web_sm
-.env.example
-ini
-Copy code
-# Copy this file to .env and add your Gemini API key
-GEMINI_API_KEY=your_api_key_here
+```
+
+# Project Structure 
+
+```bash
+LegalCaseExtractor/
+├── app.py
+├── extractor.py
+├── utils.py
+├── requirements.txt
+├── .env.example
+├── README.md
+└── temp_files/   # optional, will be auto-created by app.py
+```
